@@ -1,7 +1,12 @@
 ## My Arch Linux I3gaps dotfiles
 
-place: <br />
-i3config to ~/.config/i3/config <br />
+place:
+
+i3config to ~/.config/i3/config
+
 i3status to ~/.config/i3status/config
+
+.Xresources to ~/.Xreosurces
+
 
 more to come :p

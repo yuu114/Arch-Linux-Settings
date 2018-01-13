@@ -1,0 +1,15 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+!! Color scheme for normal row
+rofi.color-normal:                   argb:00000000,  #976490, argb:00000000,  argb:CCFF7B33,  #976490
+!! Color scheme for urgent row
+rofi.color-urgent:                   argb:00000000,  #F99157 , argb:00000000,  #F99157 , #976490
+!! Color scheme for active row
+rofi.color-active:                   argb:00000000,  #6699CC , argb:00000000,  #6699CC , #976490
+!! Color scheme window
+rofi.color-window:                   argb:eeffffff,  #FF7B33,  #FF7B33
+!! Separator style (none, dash, solid)
+rofi.separator-style: solid

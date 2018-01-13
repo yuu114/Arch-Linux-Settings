@@ -41,7 +41,7 @@ bindsym $mod+Shift+q kill
 # start rofi
 # bindsym $mod+d exec "rofi -show run -lines 10"
 
-#start rofii
+# start rofii
 bindsym $mod+d exec rofi -show drun -hide-scrollbar -lines 10 -eh 1 -width 40 -location 8 -xoffset 170 -yoffset 70 -padding 30 -disable-history -font "Noto Mono 18"
 
 
@@ -210,7 +210,7 @@ bar {
 
                 focused_workspace  #000131 #000131 #CAF9FF
                 active_workspace   #000131 #000131 #CAF9FF
-                inactive_workspace #000131 #1E023D #0255A7
+                inactive_workspace #1E023D #1E023D #0255A7
                 urgent_workspace   #FF7B33 #FF7B33 #0255A7
         }
 }
