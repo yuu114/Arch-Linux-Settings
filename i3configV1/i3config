@@ -244,6 +244,9 @@ bindsym XF86AudioPrev exec playerctl previous
 # Bind print screen
 bindsym Print exec deepin-screenshot
 
+# enable enter password when needed sudo graphically
+# exec lxsession
+
 # lock screen binding
 bindsym mod4+mod1+l exec i3lock -i /home/arnold/Pictures/wallpaper.png -t
 
@@ -262,4 +265,4 @@ exec pavucontrol
 exec --no-startup-id i3-msg 'workspace $workspace10; exec urxvt -e htop; workspace $workspace1'
 
 # set backgorund 
-exec --no-startup-id feh --bg-scale /home/arnold/Pictures/wallpaper-minimalist.jpg
+exec --no-startup-id feh --bg-scale /home/arnold/Pictures/firewatch-forest-landscape.jpg
