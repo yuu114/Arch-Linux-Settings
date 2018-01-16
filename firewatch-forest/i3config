@@ -180,16 +180,16 @@ new_float pixel 1
 # i3gaps settings
 smart_gaps on
 gaps inner 10
-# gaps outer 8
-gaps outer 15
+gaps outer 8
+
 # Colors
 
-set $bg-color 	         #FFEB3B 
+set $bg-color 	         #FF7B33 
 set $inactive-bg-color   #000131
 set $text-color          #f4f4f4
 set $inactive-text-color #1E023D
 set $urgent-bg-color     #1E023D
-set $indi-color          #03A9F4
+set $indi-color          #CAF9FF
 
 # window colors
 #                       border              background         text                 indicator
@@ -204,14 +204,14 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 bar {
         status_command i3status
         colors {
-                background #212121
-                statusline #03A9F4
-                separator #9E9E9E
-                # <colorclass> <border> <background> <text>
-                focused_workspace  #03A9F4 #03A9F4 #212121
-                active_workspace   #03A9F4 #03A9F4 #212121
-                inactive_workspace #212121 #212121 #03A9F4
-                urgent_workspace   #FF5722 #FF5722 #212121
+                background #1E023D
+                statusline #CAF9FF
+                separator #CAF9FF
+
+                focused_workspace  #000131 #000131 #CAF9FF
+                active_workspace   #000131 #000131 #CAF9FF
+                inactive_workspace #1E023D #1E023D #0255A7
+                urgent_workspace   #FF7B33 #FF7B33 #0255A7
         }
 }
 
@@ -265,4 +265,4 @@ exec pavucontrol
 exec --no-startup-id i3-msg 'workspace $workspace10; exec urxvt -e htop; workspace $workspace1'
 
 # set backgorund 
-exec --no-startup-id feh --bg-scale /home/arnold/Pictures/mlp_wallpaper.png
+exec --no-startup-id feh --bg-scale /home/arnold/Pictures/firewatch-forest-landscape.jpg

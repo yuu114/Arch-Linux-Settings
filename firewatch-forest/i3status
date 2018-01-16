@@ -9,9 +9,9 @@
 general {
       colors = true
       interval = 1
-      color_good = "#03A9F4"
-      color_bad = "#FF5722"
-      color_degraded = "#FFEB3B"
+      color_good = "#CAF9FF"
+      color_bad = "#FB0222"
+      color_degraded = "#F67433"
 	}
 
 order += "volume master"
@@ -60,7 +60,7 @@ ethernet _first_ {
       format_down = "  lan "
 }
 tztime local {
-      format = "   %Y-%m-%d  %H:%M:%S "
+      format = "   %Y-%m-%d  %H:%M:%S       "
       timezone = "Europe/Berlin"
 }
 
