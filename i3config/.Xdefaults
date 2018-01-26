@@ -10,11 +10,37 @@ URxvt*buffered: true
 URxvt*font: xft:DejaVu Sans Mono :size=12:antialias=true
 URxvt.termName: rxvt-256color
 URxvt.letterSpace: -1
-URxvt.transparent: true
-URxvt.shading: 25
+
+! transparency
+!
+! URxvt.transparent: true
+! URxvt.shading: 40
+URxvt.depth: 32
+
 URxvt.scrollBar: false
 URxvt.urlLauncher: firefox
-URxvt.foreground: #eeeeee
-URxvt.background: #000000
+URxvt.foreground: #FFF
+URxvt.background: [60]#101000
 URxvt.utf8: true
 URxvt.locale: true
+
+
+URxvt.cursorColor: yellow
+URxvt.colorUL: red
+
+URxvt.color0: #757575
+URxvt.color1: #f44336
+URxvt.color2: #4CAF50
+URxvt.color3: #FFEB3B
+URxvt.color4: #2196F3
+URxvt.color5: #E91E63
+URxvt.color6: #00BCD4
+URxvt.color7: #EEEEEE
+URxvt.color8: #BDBDBD
+URxvt.color9: #e57373
+URxvt.color10:#81C784
+URxvt.color11:#FFF176
+URxvt.color12:#64B5F6
+URxvt.color13:#F06292
+URxvt.color14:#4DD0E1
+URxvt.color15:#FAFAFA
