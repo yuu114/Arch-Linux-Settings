@@ -7,7 +7,7 @@
 
 PS1='[\u@\h \W]\$ '
 
-alias ls='ls --color=auto'
+alias ls='ls -l --color=auto'
 alias pacman='sudo pacman'
 alias grep='grep --color=auto'
 
