@@ -1,0 +1,19 @@
+
+set number
+set linebreak
+set showbreak=+++ 
+set textwidth=100
+ 
+set hlsearch
+syntax on
+ 
+set autoindent
+set shiftwidth=2
+set softtabstop=2
+ 
+
+set ruler
+ 
+set undolevels=1000
+set backspace=indent,eol,start
+ 

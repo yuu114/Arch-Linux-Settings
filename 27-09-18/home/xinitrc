@@ -1,0 +1,4 @@
+wal -a 90 -i Pictures/wallhaven-683007-mountain.jpg &
+export ANDROID_HOME=/home/arnold/.android-sdk/
+
+exec i3 >> ~/.config/i3/.i3log 2>&1

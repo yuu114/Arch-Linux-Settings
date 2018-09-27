@@ -1,0 +1,10 @@
+# <file system>		<mount point>		<type>	<options>	<dump><pass>
+
+# UUID=908f080b-1d3a-4e6b-9892-f401a4eeff28
+/dev/sda5           	/         		ext4    rw,relatime	0 1
+
+# UUID=3af033fc-6367-4de0-aa9f-49c292472b71
+/dev/sda2           	none      		swap  	defaults,pri=-2	0 0
+
+# /dev/sda7
+/dev/sda7		/home/arnold/various	ntfs	uid=1000,gid=1000,dmask=027,fmask=137	0 0

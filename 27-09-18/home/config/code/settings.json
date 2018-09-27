@@ -1,0 +1,25 @@
+{
+    "window.zoomLevel": 0,
+    "window.restoreWindows": "none",
+
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Panda Syntax",
+    "workbench.startupEditor": "none",
+
+    "editor.tabSize": 2,
+    "editor.fontWeight": "bold",
+
+    "files.insertFinalNewline": false,
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    "materialTheme.autoApplyIcons": false,
+
+    "latex-workshop.view.pdf.viewer": "tab",
+    "nativescript.analytics.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "#2196F3"
+    },
+    "breadcrumbs.enabled": true
+}
