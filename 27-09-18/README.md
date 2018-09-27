@@ -24,5 +24,5 @@
 
 ## Screenshots
 
-[logo]: ./images/screenshot1.jpg "screenshot 1"
-[logo]: ./images/screenshot2.jpg "screenshot 2"
+![alt text](./images/screenshot1.jpg "screenshot 1")
+![alt text](./images/screenshot2.jpg "screenshot 2")
