@@ -176,9 +176,6 @@ assign [class="Firefox"] $ws2
 assign [class="Franz"] $ws5
 assign [class="Code - OSS"] $ws3
 
-for_window [class="test"] floating enable
-
-
 ###########################################
 # Keybindings
 ###########################################

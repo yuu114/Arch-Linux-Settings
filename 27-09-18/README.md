@@ -22,6 +22,21 @@
 - [xinitrc](https://wiki.archlinux.org/index.php/Xinit#xinitrc)
 - [Xresources](https://wiki.archlinux.org/index.php/X_resources)
 
+### Programs used
+
+- vscode
+- i3gaps
+- i3lock
+- i3status
+- compton
+- pywal
+- urxvt
+- rofi
+- franz
+- firefox
+- chrome
+- deepin-screenshot
+
 ## Screenshots
 
 ![alt text](./images/screenshot1.jpg "screenshot 1")
